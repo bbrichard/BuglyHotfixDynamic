@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		79A1A0782357040A0069E285 /* BuglyHotfixDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A1A0762357040A0069E285 /* BuglyHotfixDynamic.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		79A1A082235711870069E285 /* BuglyMender.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A1A07E235711870069E285 /* BuglyMender.h */; };
-		79A1A083235711870069E285 /* BuglyLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A1A07F235711870069E285 /* BuglyLog.h */; };
-		79A1A084235711870069E285 /* BuglyConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A1A080235711870069E285 /* BuglyConfig.h */; };
-		79A1A085235711870069E285 /* Bugly.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A1A081235711870069E285 /* Bugly.h */; };
+		79A1A082235711870069E285 /* BuglyMender.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A1A07E235711870069E285 /* BuglyMender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79A1A083235711870069E285 /* BuglyLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A1A07F235711870069E285 /* BuglyLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79A1A084235711870069E285 /* BuglyConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A1A080235711870069E285 /* BuglyConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79A1A085235711870069E285 /* Bugly.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A1A081235711870069E285 /* Bugly.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E352A5B96B33ADA50EEDEC5D /* Pods_BuglyHotfixDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F7738FDA262BA313A67DCB /* Pods_BuglyHotfixDynamic.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,11 +95,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79A1A0782357040A0069E285 /* BuglyHotfixDynamic.h in Headers */,
 				79A1A082235711870069E285 /* BuglyMender.h in Headers */,
 				79A1A083235711870069E285 /* BuglyLog.h in Headers */,
 				79A1A084235711870069E285 /* BuglyConfig.h in Headers */,
 				79A1A085235711870069E285 /* Bugly.h in Headers */,
+				79A1A0782357040A0069E285 /* BuglyHotfixDynamic.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
