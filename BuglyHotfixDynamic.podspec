@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.ios.deployment_target = "9.0"
 
-  spec.source = { :http  => 'xxxxx' }
+  spec.source = { :http  => 'https://raw.githubusercontent.com/bbrichard/BuglyHotfixDynamic/master/Products/BuglyHotfixDynamic.framework001.zip' }
   spec.frameworks = 'SystemConfiguration', 'Security'''
   
   spec.default_subspec = 'zip'
