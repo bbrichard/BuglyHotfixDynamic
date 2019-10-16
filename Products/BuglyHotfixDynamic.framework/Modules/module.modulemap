@@ -1,0 +1,6 @@
+framework module BuglyHotfixDynamic {
+  umbrella header "BuglyHotfixDynamic.h"
+
+  export *
+  module * { export * }
+}

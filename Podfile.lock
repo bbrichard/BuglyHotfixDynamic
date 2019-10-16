@@ -1,0 +1,18 @@
+PODS:
+  - BuglyHotfix (2.1.0):
+    - BuglyHotfix/Core (= 2.1.0)
+  - BuglyHotfix/Core (2.1.0)
+
+DEPENDENCIES:
+  - BuglyHotfix
+
+SPEC REPOS:
+  trunk:
+    - BuglyHotfix
+
+SPEC CHECKSUMS:
+  BuglyHotfix: 99a969c77da1baae823a7537acb16e4f1985a5f5
+
+PODFILE CHECKSUM: e58aa09c137e4382e34d26d9d7dda12d6c407fd4
+
+COCOAPODS: 1.8.3
