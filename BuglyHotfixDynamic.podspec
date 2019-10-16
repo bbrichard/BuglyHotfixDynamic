@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "BuglyHotfixDynamic"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "BuglyHotfixDynamic for components"
   spec.description  = <<-DESC
                       BuglyHotfixDynamic for components
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.ios.deployment_target = "9.0"
 
-  spec.source = { :http  => 'https://raw.githubusercontent.com/bbrichard/BuglyHotfixDynamic/master/Products/BuglyHotfixDynamic.framework001.zip' }
+  spec.source = { :http  => 'https://raw.githubusercontent.com/bbrichard/BuglyHotfixDynamic/master/Products/BuglyHotfixDynamic.framework002.zip' }
   spec.frameworks = 'SystemConfiguration', 'Security'''
   
   spec.default_subspec = 'zip'
